@@ -9,7 +9,7 @@ import sys
 
 cwd=os.getcwd()
 build_zip_type = os.environ["TG_BUILD_ZIP_TYPE"]
-zip_pattern = "*OFFICIAL*.zip"
+zip_pattern = "*UNOFFICIAL*.zip"
 
 if build_zip_type == 'VANILLA':
 	json_file = '/vanilla_builds.json'
